@@ -1,0 +1,103 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor Principal de la Tarjeta */
+.tarjeta {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Encabezado de la Tarjeta */
+.tarjeta-header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.info-header {
+    text-align: left;
+}
+
+.info-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.profesion {
+    margin: 5px 0 0;
+    font-weight: 300;
+}
+
+/* Cuerpo de la Tarjeta */
+.tarjeta-body {
+    padding: 20px 30px;
+}
+
+.tarjeta-body h2 {
+    color: #333;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+.lista-contacto {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.lista-contacto li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.lista-contacto a {
+    text-decoration: none;
+    color: #4a90e2;
+}
+
+.lista-contacto a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de la Tarjeta */
+.tarjeta-footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes-sociales a:hover {
+    color: #4a90e2;
+}
